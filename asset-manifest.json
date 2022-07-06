@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/memoryCardEva/static/css/main.898877a6.css",
+    "main.js": "/memoryCardEva/static/js/main.be05d19e.js",
+    "static/media/misato.png": "/memoryCardEva/static/media/misato.2ca354da4c0a9990ca44.png",
+    "static/media/pngegg.png": "/memoryCardEva/static/media/pngegg.e2a1979130404085d837.png",
+    "static/media/asuka.png": "/memoryCardEva/static/media/asuka.2bdb655a1eefd67cea76.png",
+    "static/media/gendo.png": "/memoryCardEva/static/media/gendo.b078adbcdf3856ffeb6e.png",
+    "static/media/blueeva.png": "/memoryCardEva/static/media/blueeva.5ed04c33bebbc4c8eb89.png",
+    "static/media/penguin.png": "/memoryCardEva/static/media/penguin.e28ff30b84ff2b3afe07.png",
+    "static/media/logo.png": "/memoryCardEva/static/media/logo.73ca8495767007d16d9e.png",
+    "static/media/rei2.png": "/memoryCardEva/static/media/rei2.7011de186f952a8ed311.png",
+    "static/media/mari (2).png": "/memoryCardEva/static/media/mari (2).f1a798335cbcc3f92d84.png",
+    "index.html": "/memoryCardEva/index.html",
+    "main.898877a6.css.map": "/memoryCardEva/static/css/main.898877a6.css.map",
+    "main.be05d19e.js.map": "/memoryCardEva/static/js/main.be05d19e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.898877a6.css",
+    "static/js/main.be05d19e.js"
+  ]
+}
