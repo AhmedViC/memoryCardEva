@@ -1,23 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
 
+import logo from './eva/logo.png'
+
+import DashBoard from './Components/DashBoard';
+import GameBoard from './Components/GameBoard';
+
+import { useEffect,useState } from 'react';
 function App() {
+
+
+ 
+  const [currentCards,setCurrentCards] = useState([])
+  const [currentScore,SetCurrentScore]=useState(0)
+  const [bestScore,setBestScore]=useState(0)
+  
+
+  useEffect (()=>{
+    console.log(currentCards)
+    
+ 
+  },[currentCards])
+  
+
+
+  
+ 
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div className="header">
+        <div>
+          <img src={logo} alt="problem!"></img>
+        </div>
+        <div className="dashBoard">
+      <DashBoard currentScore={currentScore} bestScore={bestScore}
+    />
+
+        </div>
+
+      </div>
+      <div className="gameBoard">
+      <GameBoard setCurrentCards={setCurrentCards} 
+      currentCards={currentCards}
+       currentScore={currentScore} 
+       SetCurrentScore={SetCurrentScore}
+       bestScore={bestScore}
+       setBestScore={setBestScore}/>
+      </div>
+
+
+      
     </div>
   );
 }

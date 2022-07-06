@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Lato:wght@700&family=Open+Sans&family=Roboto+Mono:wght@300;500&family=Roboto:wght@300&family=Source+Code+Pro&display=swap');
+
+@media (max-width:600px)
+{
+    .gameBoard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     
+    
+        margin: 10px auto 30px auto;
+    
+    }
+    .card{
+        text-align: center;
+        background-color: #B93ACF;
+        font-family: 'Lato', sans-serif;
+    
+        
+      grid-gap: 1rem 1rem;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    
+        border-radius: 25px;
+       
+    }
+   
+
+}
+
+@media (min-width:601px)
+{
+    .gameBoard{
+        display: grid;
+        grid-template-columns: repeat(4, 200px);
+        grid-gap: 1rem;
+    
+        margin: 50px auto 30px auto;
+        justify-content: center;
+    
+    }.card{
+        text-align: center;
+        background-color: #B93ACF;
+        font-family: 'Lato', sans-serif;
+    
+        margin-bottom: 20px;
+      
+        cursor: pointer;
+    
+        border-radius: 25px;
+       
+    }
+   
+    
+
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: #7E1B80;
+}
+img{
+    width: 200px;
+    
+}
+.message{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.header{
+  
+
+    background-color: #151B47;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+
+
+
+
+.dashBoard{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+
+    padding :10px;
+    flex-direction: column;
+    
+}
